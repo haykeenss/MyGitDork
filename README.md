@@ -22,7 +22,7 @@ GitHub Dorking is useful in scenarios where you need to assess a target's securi
 
 ## Usage
 
-1. Clone the repository or download the script:
+1. Clone the repository or download the script: if prompt, enter your correct github username and pass in other to clone. or you can just easily copy the bash file anad save then you continue with step 2.
    ```bash
    git clone https://github.com/haykeens/MyGitDork.git
    cd MyGitDork
