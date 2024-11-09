@@ -1,4 +1,4 @@
-# GitHub Dorking Tool
+# MyGitDork
 
 ## Overview
 This is a Red Team tool designed to help security researchers and penetration testers quickly identify potentially sensitive information within public GitHub repositories. By leveraging "dorks" (targeted search queries), this tool can help locate secrets, passwords, configuration files, API keys, and other critical data that may have been accidentally exposed on GitHub.
@@ -24,23 +24,23 @@ GitHub Dorking is useful in scenarios where you need to assess a target's securi
 
 1. Clone the repository or download the script:
    ```bash
-   git clone https://github.com/yourusername/github-dorking-tool.git
-   cd github-dorking-tool
+   git clone https://github.com/haykeens/MyGitDork.git
+   cd MyGitDork
    ```
 
 2. Make the script executable:
    ```bash
-   chmod +x github_dork.sh
+   chmod +x mygitdork.sh
    ```
 
 3. Run the script with a target keyword (such as a domain name, email, or specific keyword):
    ```bash
-   ./github_dork.sh <target_keyword>
+   ./mygitdork.sh <target_keyword>
    ```
 
    Replace `<target_keyword>` with your target string. For example:
    ```bash
-   ./github_dork.sh example.com
+   ./mygitdork.sh example.com
    ```
 
 ## Example
@@ -68,6 +68,3 @@ Regularly update your dork keywords to stay current with evolving security trend
 
 ## Contributing
 Contributions to improve the tool are welcome! Please submit a pull request with any updates, additional dorks, or new features.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
